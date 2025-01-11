@@ -8,7 +8,7 @@ const bot = new TelegramBot(token, { polling: true });
 
 // Load the plugins
 const hiP = require('./plugins/hiP');
-hiPlugin(bot); // Load hiPlugin
+hiP(bot); // Load hiPlugin
 
 const buttonP= require('./plugins/buttonP');
-ajsalPlugin(bot); // Load ajsalPlugin
+buttonP(bot); // Load ajsalPlugin
